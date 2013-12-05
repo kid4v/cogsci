@@ -1,19 +1,57 @@
 sam
-20131204_1633
-suit	v	-4528
-loom	v	-2743
-monitor	word typed	a
-club	v	-7223
-row		v	-24424
-check	v	-4319
-season	v	-401097
-jam		v	-25608
-fly		v	-11143
-bark	v	-4969
-strike	word typed	strik
-mint	v	-6688
-board	v	-3992
-roll	v	-5960
-draft	v	-4871
+20131205_1021
+suit	n	0
+loom	n	0
+monitor	v	0
+club	n	0
+row	v	0
+check	v	0
+season	v	0
+jam	n	0
+fly	v	0
+bark	n	0
+strike	v	0
+mint	v	0
+board		0	word typed	baord
+roll	v	0
+draft	v	0
+         
+
+sam schumer
+20131205_1025
+suit	n	0
+loom	n	0
+monitor	n	0
+club	v	0
+row	v	0
+check	n	0
+season	v	0
+jam	n	0
+fly	n	0
+bark	n	0
+strike	n	0
+mint	n	0
+board	n	0	word typed	baord
+roll	v	0
+draft	v	0
+         
+
+sam
+20131205_1029
+suit	v	6.521
+loom	n	2.596
+monitor	v	4.839
+club	n	1.961
+row	n	1.622
+check	v	6.243
+season	v	5.972
+jam	v	1.981
+fly	v	6.7250000000000005
+bark	v	2.746
+strike	n	9.118
+mint	v	3.0260000000000002	word typed	muted
+board	n	6.985
+roll	n	3.113
+draft	n	4.651
          
 

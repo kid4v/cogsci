@@ -51,7 +51,7 @@ public static void run() throws IOException{
 		  words = in.readLine(); 
 		  String[] acceptable = words.split(" ");
 		  //if i=0 its the verb sentence if i=1 then its the noun sentence
-		  i = (chooser.nextInt(1));
+		  i = (chooser.nextInt(2));
 		  sentence = in.readLine();
 		  if (i==1){
 			  sentence = in.readLine();
@@ -63,20 +63,20 @@ public static void run() throws IOException{
 		  stop = System.currentTimeMillis();
 		  for(String cor: acceptable){
 			  if (response.contains(cor)) correct = true;
-		  }		  
+		  }	
+		  i = 118-i*8;
+		  double time =  ((stop-start)* (double) 0.001);
 		  if (correct){
 			  //math to print out nonn or verb
-			System.out.println("Yes that is correct!");
-			i = 118-i*8;
-			long time = start - stop;
+//			System.out.println("Yes that is correct!");
 			log.print(acceptable[0]+"\t"+ Character.toString((char)i)+"\t"+ time + "\n" );
 		  }
 		  else{
-			System.out.println("We were looking for"+words);
-			log.print(""+ acceptable[0] + "\t" + "word typed"+ "\t" + response + "\n");
+//			System.out.println("We were looking for"+words);
+			log.print(acceptable[0] + "\t"+ Character.toString((char)i)+"\t"+ time + "\t" + "word typed"+ "\t" + response + "\n");
 		  }  
 		  //safegard for EOF
-		  if (i == 118||i==0){
+		  if (i == 118){
 			  in.readLine();
 		  }
 		  try{in.readLine();}
